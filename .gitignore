@@ -1,0 +1,18 @@
+# Logs e temporários do sistema
+*.log
+*.tmp
+*.swp
+
+# Arquivos do VirtualBox
+*.vbox
+*.vdi
+*.vbox-prev
+*.vdi-prev
+
+# Arquivos ISO e VM
+*.iso
+*.img
+
+# Pastas do sistema
+.DS_Store
+Thumbs.db
