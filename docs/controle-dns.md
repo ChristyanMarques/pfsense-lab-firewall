@@ -36,6 +36,16 @@ Alteração do arquivo resolv.conf:
 
 nameserver 192.168.x.1
 
+## Teste de conectividade
+
+Foi realizado o teste de ping para validar o bloqueio:
+
+- O domínio youtube.com não foi resolvido
+- A conectividade com o gateway (pfSense) permaneceu funcional
+
+Isso comprova que o bloqueio é específico ao DNS e não afeta a rede como um todo.
+
+
 ## Resultado final
 
 Bloqueio funcionando corretamente.
